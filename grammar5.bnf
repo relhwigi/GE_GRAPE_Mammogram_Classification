@@ -4,8 +4,8 @@
 <a> ::= n = <n>
 <b> ::= b = <n>
 <c> ::= c = <data>
-<d> ::= GE_RANGE:10
-<n> ::= GE_RANGE:51
+<d> ::= 0:10
+<n> ::= 0:51
 
 # Potential Recursion of comparison
 <code> ::= <a>{::}<b>{::}<c>{::}<if> | <a>{::}<b>{::}<c>{::}<if>{::}<code> | <a>{::}<b>{::}<c>{::}<if>{::}<code>{::}<code> | <a>{::}<b>{::}<c>{::}<if>{::}<code>{::}<code>{::}<code>
