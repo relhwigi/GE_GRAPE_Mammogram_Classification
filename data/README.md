@@ -8,4 +8,5 @@ Haralick features describe textural features for an image such as variance, en- 
 
 ## File Breakdown
 haralick02.csv - contains the full dataset of 405,280 rows.
+
 haralick02_250K.csv - contains a subset of the full dataset, 24,999 rows.
